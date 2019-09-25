@@ -1,3 +1,5 @@
+Reinventing myself by totally doing-over my portfolio site. Probaly expanding it to contain more information about myself. Attempting to develop it using React.js. having a good time all around. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
