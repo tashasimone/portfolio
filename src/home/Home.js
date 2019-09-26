@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import *as Data from '../data/collection';
 import Collection from '../components/Feed';
 import Blog from '../components/BlogFeed';
 
