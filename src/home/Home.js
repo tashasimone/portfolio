@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+// import *as Data from '../data/collection';
+import Collection from '../components/Feed';
+import Blog from '../components/BlogFeed';
 
 class Home extends Component {
   render() {
@@ -19,6 +22,9 @@ class Home extends Component {
 
         <div class="section-2">
           <h2>section head</h2>
+          <div className="Collection">
+            <Collection />
+          </div>
           <div class="project-preview">
             <img src="https://via.placeholder.com/160" alt="blank placeholder"></img>
             <h3>project title</h3>
@@ -54,6 +60,7 @@ class Home extends Component {
             faucibus augue. Maecenas tincidunt est nec mattis iaculis. In blandit 
             dui a mollis ornare. Sed tempor justo nec diam auctor mattis.
             <a href=""></a></p>
+            <Blog />
         </div>
 
         <div class="section-5">
@@ -71,5 +78,6 @@ class Home extends Component {
     );
 }
 }
+
 
 export default Home;
