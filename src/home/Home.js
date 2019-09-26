@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
-import Menu from '../components/Menu';
 
 class Home extends Component {
   render() {
     return (
       <div className="Home">
-      <Menu />
-      <div id='container'>
-            <a href="../projects">Portfolio</a>
-            <a href="../about" >About Me</a>
-      </div>  
       <main>
         <div class="hero-header">
           <img src="https://via.placeholder.com/700x340" alt="blank placeholder"></img>

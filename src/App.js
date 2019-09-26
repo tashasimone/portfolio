@@ -1,38 +1,49 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 // import logo from './assets/logo.svg';
 import './App.css';
-// import Menu from './components/Menu.js';
-import Home from './home/Home.js';
-import Projects from './projects/Projects';
-import About from './about/index';
+import Menu from './components/Menu.js';
+import Footer from './components/Footer';
+
+// import { BrowserRouter as Router, Route } from 'react-router-dom';
+// import Home from './home/Home';
+// import Projects from './projects/Projects';
+// import About from './about/About';
 
 class App extends Component {
   render() {
     return (
-      <Router>
+      <div className="App">
+        <Menu />
+      <div>
+        <p>hello world, coming from the app.js</p>
+      </div>
+        {/* <Router>
         <div>
-          <Route path='/' render={() => (
+          <Route exact path='/' render={() => (
             <div className="App">
               <Home />
               </div>
           )}/>
-          <Route path='/projects' render={() => (
+          <Route exact path='/home' render={() => (
+            <div className="App">
+              <Home />
+              </div>
+          )}/>
+          <Route exact path='/projects' render={() => (
             <div className="App">
               <Projects />
               </div>
           )}/>
-          <Route path='/about' render={() => (
+          <Route exact path='/about' render={() => (
             <div className="App">
               <About />
               </div>
           )}/>
         </div>
-      </Router>
-      // <div className="App">
-      //   <Menu />
-      //   <Home />
-      // </div>
+      </Router> */}
+
+      <Footer />
+      </div>
     );
   }
 }
