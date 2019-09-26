@@ -13,34 +13,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Menu />
+      <Menu />
+      
       <div>
         <p>hello world, coming from the app.js</p>
+        <p>Notes: Menu uses Router to determine which Component to render. Therefore, all components from app.js render based on position. 
+          going forward, individual components can render within others depending on need.
+        </p>
       </div>
-        {/* <Router>
-        <div>
-          <Route exact path='/' render={() => (
-            <div className="App">
-              <Home />
-              </div>
-          )}/>
-          <Route exact path='/home' render={() => (
-            <div className="App">
-              <Home />
-              </div>
-          )}/>
-          <Route exact path='/projects' render={() => (
-            <div className="App">
-              <Projects />
-              </div>
-          )}/>
-          <Route exact path='/about' render={() => (
-            <div className="App">
-              <About />
-              </div>
-          )}/>
-        </div>
-      </Router> */}
 
       <Footer />
       </div>
