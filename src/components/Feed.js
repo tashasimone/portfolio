@@ -5,7 +5,7 @@ class Projects extends Component {
     render() {
       return (
         <div className="Project">
-        <img src={require(`../assets/${this.props.img}.jpg`)} className="Project-cover" alt="placeholder" width="400px" />
+        <img src={require(`../images/${this.props.img}.jpg`)} className="Project-cover" alt="placeholder" width="400px" />
           <h2 className="Project-title">{this.props.title}</h2>
           <ul className="Project-info">
             <li className="Project-type">Type: {this.props.type}</li>

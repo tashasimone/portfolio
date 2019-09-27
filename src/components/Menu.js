@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../images/logo.svg';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Router } from "@reach/router";
+// import { Router } from "@reach/router";
 import Home from '../pages/Home';
 import Projects from '../pages/Projects';
 import About from '../pages/About';
