@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import logo from '../assets/logo.svg';
+import logo from '../images/logo.svg';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Home from '../home/Home';
-import Projects from '../projects/Projects';
-import About from '../about/About';
-import Other from '../other-work/Other-work';
-import Links from '../links/Links';
-import Resources from '../resources/Resources';
+import { Router } from "@reach/router";
+import Home from '../pages/Home';
+import Projects from '../pages/Projects';
+import About from '../pages/About';
+import Other from '../pages/Other-work';
+import Links from '../pages/Links';
+import Resources from '../pages/Resources';
 
 class Menu extends Component {
   render() {
