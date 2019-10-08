@@ -24,7 +24,7 @@ import *as Data from '../data/blog';
       this.state = {
         posts: Data.posts
       };
-      console.log(Data.posts);
+      // console.log(Data.posts);
     }
   
     renderPost(post) {

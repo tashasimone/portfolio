@@ -1,4 +1,5 @@
 export const projects = [{
+    key: 0,  
     title: "Paul Rand Tribute",
     type: "graphic",
     year: 2018,
@@ -8,6 +9,7 @@ export const projects = [{
     img: "place1"
   },
   {
+    key: 1,  
     title: "Room Reservation Redesign",
     type: "interactive",
     year: 2018,
@@ -17,6 +19,7 @@ export const projects = [{
     img: "place2"
   },
   {
+    key: 2,  
     title: "goodDYEyoung",
     type: "interactive",
     year: 2017,
@@ -24,5 +27,15 @@ export const projects = [{
     client: "Web Design 2",
     fact: "this is the first project where I created an entire custom wordpress template",
     img: "place3"
+  },
+  {
+    key: 3,  
+    title: "miles peterson logo",
+    type: "graphic",
+    year: 2018,
+    programs: "Illustrator",
+    client: "Graphic Design 2",
+    fact: "I created a logo with corresponding stationery set for a music producer",
+    img: "place4"
   }
 ];
