@@ -21,7 +21,7 @@ class Home extends Component {
 
         <div className="section-2">
           <h2>section head</h2>
-          <Collection rangeMin='1' rangeMax='4'/>
+          <Collection rangeMin='0' rangeMax='2' getInfo={false} />
           <div className="project-preview">
             <img src="https://via.placeholder.com/160" alt="blank placeholder"></img>
             <h3>project title</h3>
@@ -39,11 +39,13 @@ class Home extends Component {
         <div className="section-3">
           <div className="collection-box">
             <h2>graphic designs</h2>
+            <Collection filterType="graphic" getInfo={true} />
             <p><a href="">see all >></a></p>
             <img src="https://via.placeholder.com/200x120" alt="blank placeholder"></img>
           </div>
           <div className="collection-box">
             <h2>interactive &amp; ux</h2>
+            <Collection filterType="interactive" getInfo={true} />
             <p><a href="">see all >></a></p>
             <img src="https://via.placeholder.com/160" alt="blank placeholder"></img>
           </div>
