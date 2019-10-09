@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Collection from '../components/Feed';
 import Blog from '../components/BlogFeed';
 
+
 class Home extends Component {
   render() {
     return (
@@ -12,6 +13,7 @@ class Home extends Component {
         </div>
         <div className="section-1">
           <h1>headline one</h1>
+          <Collection rangeMin='3' rangeMax='3' getInfo={false} />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Ut cursus efficitur dolor, sit amet volutpat est. Quisque massa nisi, 
             iaculis pellentesque turpis eu, pellentesque aliquam sapien. In auctor 
@@ -20,7 +22,7 @@ class Home extends Component {
         </div>
 
         <div className="section-2">
-          <h2>section head</h2>
+          <h2>featured projects</h2>
           <Collection rangeMin='0' rangeMax='2' getInfo={false} />
           <div className="project-preview">
             <img src="https://via.placeholder.com/160" alt="blank placeholder"></img>

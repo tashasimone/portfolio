@@ -12,24 +12,25 @@ import Resources from '../pages/Resources';
 class Menu extends Component {
   render() {
     return (
-    <div className="Menu">
-      <nav>
-        <div className="Menu-logo">
-          <a href="/about"><img src={logo} className="App-logo" alt="logo" /></a>
-        </div>
-        <div id='container'>
-            <ul>
-                <li><a href="../">Home</a></li>
-                <li><a href="../projects">Design Portfolio</a></li>
-                <li><a href="../other-work">Creative Works</a></li>
-                <li><a href="../about">About Me</a></li>
-                <li><a href="../links">Where to Find Me</a></li>
-                <li><a href="../resources">Resources</a></li>
-            </ul>
-        </div>
+    <div className="PageBody">
+        <nav className="Menu">
+            <div className="Menu-logo">
+            <a href="/about"><img src={logo} className="App-logo" alt="logo" /></a>
+            </div>
+            <div id='container'>
+                <ul>
+                    <li><a href="../">Home</a></li>
+                    <li><a href="../projects">Design Portfolio</a></li>
+                    <li><a href="../other-work">Creative Works</a></li>
+                    <li><a href="../about">About Me</a></li>
+                    <li><a href="../links">Where to Find Me</a></li>
+                    <li><a href="../resources">Resources</a></li>
+                </ul>
+            </div>
+        </nav>
         
         <Router>
-            <div>
+            <div className="PageContent">
             <Route exact path='/' render={() => (
                 <div className="App">
                 <Home />
@@ -67,7 +68,6 @@ class Menu extends Component {
             )}/>
             </div>
         </Router>
-      </nav>
       </div>
     );
 }
