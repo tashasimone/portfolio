@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import logo from './assets/logo.svg';
-import "./styles/App/App.css";
+import "./styles/App.css";
 import Menu from './components/Menu.js';
 import Footer from './components/Footer';
 

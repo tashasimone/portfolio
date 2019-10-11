@@ -10,18 +10,24 @@
   /* animation: App-logo-spin infinite 30s linear; */
   padding: 10px 0px; }
 
-.Menu {
-  flex: 1;
-  padding: 7px; }
-
-.PageContent {
-  flex: 5; }
+.Footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center; }
 
 .PageBody {
   max-width: 1200px;
   display: flex;
   flex-flow: row;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background-color: #dfdfdf;
+  padding: 20px;
+  box-sizing: border-box; }
+  .PageBody .Menu {
+    flex: 1;
+    padding: 7px; }
+  .PageBody .PageContent {
+    flex: 5; }
 
 ul {
   list-style: none;

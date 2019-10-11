@@ -12,18 +12,27 @@
   padding: 10px 0px;
 }
 
-.Menu {
-  flex: 1;
-  padding: 7px;
+.Footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
-.PageContent {
-  flex: 5;  
-}
+
 .PageBody {
   max-width: 1200px;
   display: flex;
   flex-flow: row;
   margin: 0 auto;
+  background-color: #dfdfdf;
+  padding: 20px;
+  box-sizing: border-box;
+  .Menu {
+    flex: 1;
+    padding: 7px;
+  }
+  .PageContent {
+    flex: 5;  
+  }
 }
 
 ul {
