@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Collection from '../components/Feed';
 import Blog from '../components/BlogFeed';
+import InstagramEmbed from 'react-instagram-embed';
+import { TwitterTimelineEmbed, TwitterFollowButton } from 'react-twitter-embed';
 
 
 class Home extends Component {
@@ -69,7 +71,20 @@ class Home extends Component {
         </div>
 
         <div className="section-5">
-          <h2>section head</h2>
+          <h2>social feeds</h2>
+          <div className="social-feed">
+            <h3>instagram</h3>
+            {/* <InstagramEmbed url='https://instagram.com/tashhposhh' maxWidth={320} hideCaption={true} containerTagName='div' /> */}
+            <InstagramEmbed
+              url='https://instagram.com/p/B05LDTEFzgV/'
+              maxWidth={400}
+              hideCaption={true}
+            />
+          </div>
+          <div className="social-feed">
+            <h3>twitter</h3>
+            <TwitterTimelineEmbed sourceType="profile" screenName="t_shasimone" options={{height: 500}} />
+          </div>
           <div className="social-feed">
             <img src="https://via.placeholder.com/340" alt="blank placeholder"></img>
           </div>

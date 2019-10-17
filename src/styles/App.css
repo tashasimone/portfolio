@@ -23,11 +23,16 @@
   background-color: #dfdfdf;
   padding: 20px;
   box-sizing: border-box; }
-  .PageBody .Menu {
-    flex: 1;
-    padding: 7px; }
-  .PageBody .PageContent {
-    flex: 5; }
+
+.PageBody .Menu {
+  flex: 1;
+  padding: 7px; }
+
+.PageBody .PageContent {
+  flex: 5; }
+
+.social-feed {
+  max-width: 400px; }
 
 ul {
   list-style: none;
